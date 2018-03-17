@@ -106,7 +106,7 @@
 				//获取用户名和密码，通过this获取
 				console.log(this.usernameModel, this.passwordModel)
 				if(!this.userErrors.status || !this.passwordErrors.status) {
-					this.errorText = '输入不能为空'
+					this.errorText = '部分选项未通过'
 				} else {
 					this.errorText = ''
 					//      console.log('login')
